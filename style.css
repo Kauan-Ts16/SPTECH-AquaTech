@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.title {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 300px;
+    color: #e3b062;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+
+/* BANNER*/
+
+.banner{
+    background-image: url("./assets/imagens/bg-jelly-fish-para_outras_pags.png");
+    height: 500px;
+    color: white;
+}
+
+.banner .container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    font-size: 32px;
+    width: 200px;
+}
+
+
+/* SOCIAL */
+
+.social {
+    background-color: #f7f7f7;
+    height: 500px;
+
+}
+
+.social .container {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social .container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social .container .box img {
+    width: 100px;
+}
+
+.social .container .box p {
+    width: 450px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #32b9cd;
+    color: white;
+}
+
+.footer .container {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* -------------------- CADASTRO -------------------- */
+
+.content {
+    width: 100%;
+    height: 88.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/imagens/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.form {
+    width: 400px;
+    height: 560px;
+    background-color: rgb(229,229,229);
+    display: flex;
+    flex-direction: column;
+    color: rgb(220,123,151);
+    border-radius: 10PX;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.divInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.divInput input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid rgb(87,195,211);
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(230,0,90);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
